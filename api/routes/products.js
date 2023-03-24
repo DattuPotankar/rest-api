@@ -13,7 +13,7 @@ router.get('/', productController.getProducts)
 // })
 
 //Handle POST request for product
-// router.post('/',productController.createProduct)
+router.post('/',productController.createProduct)
 //  (req, res) => {
 
 //     //body parsel will make the following properties available
